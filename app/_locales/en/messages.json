@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Bring Google View Image Back",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "This extension brings the view image button back in google image search results",
+    "description": "The description of the application"
+  }
+}
