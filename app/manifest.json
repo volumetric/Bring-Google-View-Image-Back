@@ -17,14 +17,15 @@
   },
   "permissions": [
     "tabs",
-    "http://*/*",
-    "https://*/*"
+    "*://www.google.com/*"
   ],
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "*://*/*"
+      ],
+      "include_globs": [
+        "*://www.google.*/*"
       ],
       "js": [
         "scripts/lib/jquery.min.js",
